@@ -1,0 +1,13 @@
+.App {
+  padding: 0 5%;
+
+  max-height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.centre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
