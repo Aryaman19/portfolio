@@ -14,7 +14,7 @@ const Skill = () => {
           Node.js, Figma
         </div>
         <div>
-          <b>Beginner:</b> Rust,C, C++, Solidity, Solana, Ethereum, Kubernetes,
+          <b>Beginner:</b> Rust, C, C++, Solidity, Solana, Ethereum, Kubernetes,
           Webpack, Adobe XD HTML/CSS
         </div>
       </div>

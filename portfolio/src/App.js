@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      {/* <CircularNavigationDrawer /> */}
+      <CircularNavigationDrawer />
       <Home />
       <About />
       <Skill />

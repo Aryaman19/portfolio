@@ -72,3 +72,15 @@
   bottom: 60px;
   left: 0px;
 }
+
+@media screen and (max-width: 1100px) {
+  .home {
+    flex-direction: column-reverse;
+    padding-top: 100px;
+    justify-content: flex-end;
+  }
+
+  .home-image-profile {
+    width: 80%;
+  }
+}
