@@ -10,8 +10,8 @@ const Home = () => {
     <div className="home" id="#home">
       <div className="home-text">
         <div className="home-text-sub-heading">Hello I'm Aryaman,</div>
-        <div className="home-text-heading">Software</div>
-        <div className="home-text-heading">Engineer</div>
+        <div className="heading">Software</div>
+        <div className="heading">Engineer</div>
         <div className="home-text-sub-heading">based in India</div>
         <div className="home-text-button">
           <div

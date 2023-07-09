@@ -4,8 +4,8 @@ import "./Skill.css";
 const Skill = () => {
   return (
     <div className="skills" id="#skills">
-      <div className="skills-heading">skills.</div>
-      <div className="skills-text">
+      <div className="heading">skills.</div>
+      <div className="skills-text hidden">
         <div>
           <b>Strong:</b> JavaScript, Python, AWS, React.js, MySql, Git, HTML/CSS
         </div>

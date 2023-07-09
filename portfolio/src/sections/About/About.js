@@ -4,8 +4,8 @@ import "./About.css";
 const About = () => {
   return (
     <div className="about" id="#about">
-      <div className="about-heading">experience.</div>
-      <div className="about-text">
+      <div className="heading">experience.</div>
+      <div className="about-text hidden">
         I am a{" "}
         <span className="about-text-decoration">
           software engineer at I'm Beside You Inc
@@ -22,7 +22,7 @@ const About = () => {
       </div>
       <div className="about-list">
         <ul>
-          <li>
+          <li className="hidden-left">
             <div className="about-list-heading">
               Software Engineer, I’m Beside You Inc
             </div>
@@ -35,7 +35,7 @@ const About = () => {
               performance.
             </div>
           </li>
-          <li>
+          <li className="hidden-left">
             <div className="about-list-heading">
               Software Engineer (Intern), I’m Beside You Inc
             </div>
@@ -49,7 +49,7 @@ const About = () => {
               development environments.
             </div>
           </li>
-          <li>
+          <li className="hidden-left">
             <div className="about-list-heading">
               Web Engineer (Intern), I’m Beside You Inc
             </div>
@@ -61,7 +61,7 @@ const About = () => {
               performance by 10%.
             </div>
           </li>
-          <li>
+          <li className="hidden-left">
             <div className="about-list-heading">
               Full Stack Development (Intern), Techverse
             </div>

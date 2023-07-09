@@ -300,3 +300,44 @@
     text-decoration: underline;
   } */
 }
+
+@media screen and (max-width: 800px) {
+  .circular-navigation-drawer {
+    bottom: 150px;
+    right: 25%;
+  }
+
+  .menu-item,
+  .menu-open-button,
+  .menu {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+  }
+
+  .lines {
+    width: 20px;
+    margin-left: -9.5px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .menu-item,
+  .menu-open-button,
+  .menu {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+  }
+
+  .lines {
+    width: 18px;
+    margin-left: -9.5px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .circular-navigation-drawer {
+    right: 35%;
+  }
+}

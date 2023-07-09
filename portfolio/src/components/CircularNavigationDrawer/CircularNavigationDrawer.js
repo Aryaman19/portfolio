@@ -1,7 +1,6 @@
-import React, { useState } from "react";
 import "./CircularNavigationDrawer.css";
 
-const CircularNavigationDrawer = () => {
+const CircularNavigationDrawer = ({ isScrolling }) => {
   const handleClickScroll = (id) => {
     const element = document.getElementById(id);
     if (element) {
@@ -12,7 +11,10 @@ const CircularNavigationDrawer = () => {
   };
 
   return (
-    <div className="circular-navigation-drawer">
+    <div
+      className="circular-navigation-drawer"
+      style={isScrolling ? { display: "none" } : {}}
+    >
       <nav className="menu">
         <input
           type="checkbox"

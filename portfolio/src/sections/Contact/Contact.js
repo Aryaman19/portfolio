@@ -3,8 +3,8 @@ import "./Contact.css";
 
 const Contact = () => {
   return (
-    <div className="contact">
-      <div className="contact-heading">contact.</div>
+    <div className="contact hidden">
+      <div className="heading">contact.</div>
       <div className="contact-text">
         <div>aryaman19kumar@gmail.com</div>
         <div>linkedin.com/in/aryaman-kumar</div>
